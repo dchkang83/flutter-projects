@@ -1,0 +1,177 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+*.bak
+*.tmp
+*~
+.fuse_hidden*
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Pub dependencies (선택사항: pubspec.lock을 제외하려면 주석 해제)
+# pubspec.lock
+
+# iOS CocoaPods
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Podfile.lock
+**/ios/.flutter-plugins-dependencies
+**/ios/Runner.xcworkspace/xcuserdata/
+**/ios/Runner.xcodeproj/xcuserdata/
+**/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+**/ios/DerivedData/
+**/ios/flutter_export_environment.sh
+
+# Android Gradle
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/.idea/
+**/android/*.iml
+**/android/.cxx/
+**/android/.externalNativeBuild/
+**/android/build/
+**/android/app/build/
+**/android/key.properties
+**/android/**/*.keystore
+**/android/**/*.jks
+**/android/app/google-services.json.backup
+
+# Web dependencies (Flutter web 개발 시)
+**/web/node_modules/
+**/web/package-lock.json
+**/web/yarn.lock
+**/web/.dart_tool/
+
+# Linux build artifacts
+**/linux/.dart_tool/
+**/linux/flutter/ephemeral/
+**/linux/build/
+
+# Windows build artifacts
+**/windows/.dart_tool/
+**/windows/flutter/ephemeral/
+**/windows/build/
+
+# macOS build artifacts
+**/macos/.dart_tool/
+**/macos/Flutter/ephemeral/
+**/macos/Runner.xcworkspace/xcuserdata/
+**/macos/Runner.xcodeproj/xcuserdata/
+**/macos/build/
+**/macos/DerivedData/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here (위의 Android Gradle 섹션과 중복이지만 호환성을 위해 유지)
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# Firebase (선택적으로 제외하려면 주석 해제)
+# **/google-services.json
+# **/GoogleService-Info.plist
+
+# Exceptions to above rules
+!**/ios/Runner/GoogleService-Info.plist
+!**/android/app/google-services.json
+
+# Test related
+test/.test_coverage.dart
+.coverage/
+*.lcov
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.config.dart
+*.gen.dart
+
+# Flutter logs and cache
+flutter_*.log
+**/flutter/.dart_tool/
+**/flutter/.packages
+**/flutter/.flutter-plugins
+
+# Backup files
+*.backup
+*.bkp
